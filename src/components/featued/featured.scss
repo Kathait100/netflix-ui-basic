@@ -1,0 +1,78 @@
+.featured-container{
+    .category{
+        position:absolute;
+        bottom:400px;
+        left:50px;
+        font-size:30px;
+        font-weight:50px;
+        color:white;
+        display: flex;
+        align-items: center;
+
+        select{
+            cursor:pointer;
+            background-color: black;
+            border:1px solid black;
+            margin-left: 10px;
+            color:white;
+            padding: 5px;
+        }
+    }
+    .info{
+        width:35%;
+        position:absolute;
+        left:50px;
+        bottom:100px;
+        color:white;  
+
+    }
+    .button{
+       padding:10px 20px;
+       border: none;
+       border-radius: 5px;
+       display:flex;
+       align-items: center;
+       margin-right:10px; 
+       cursor: pointer;
+        .play{
+            width:135px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color:rgb(229,9,20);
+            color:black;
+            padding: 10px 20px;
+            margin-right: 10px;
+            margin-left: -17px;
+            border:rgb(229,9,20);
+            &:hover{
+                background-color:rgba(229, 9, 20, 0.925);
+            }
+            span{
+                font-size:20px;
+                font-weight: 500;
+                margin-left: 5px;
+            }
+        }
+        .info-inn{
+            width:135px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: grey;
+            border:grey;
+            color:black;
+            padding: 10px 20px;
+            &:hover{
+                background-color: rgba(128, 128, 128, 0.925);
+            }
+            span{
+                font-size:20px;
+                font-weight: 500;
+                margin-left: 5px;
+            }
+        }
+        
+    }
+    
+}
