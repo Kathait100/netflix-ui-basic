@@ -1,6 +1,6 @@
 import './styleapp.scss';
 import Home from "./pages/Home/home";
-import Watch from './pages/watch/watch';
+// import Watch from './pages/watch/watch';
 // import Register from './pages/register/register';
 
 
